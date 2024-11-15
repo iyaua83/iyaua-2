@@ -1,0 +1,139 @@
+body, html  {
+  background-color: black;
+  height: 100%;
+  display: grid;
+  font-family: verdana;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 280px 1fr 500px 1fr;
+  align-items: center;
+  margin-top: auto;
+
+}
+.image {
+  height: 280px;
+  padding: 32px;
+}
+
+.detail {
+  display: block;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.happening {
+  color: white;
+  white-space: nowrap;
+  font-size: 63px;
+  font-weight: bold;
+  margin-bottom: 70px;
+  
+}
+
+.g {
+  font-family: 'Roboto serif';
+  font-size: 68px;
+  font-weight: bold;
+}
+.join {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.google,
+.apple,
+.create,
+.sign {
+  display: block;
+  width: 305px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  padding-top: 0;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.google-icon,
+.apple-icon {
+  width: 20px;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+.google-sign,
+.apple-sign {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+.apple-sign {
+  font-weight: bold;
+}
+
+.border {
+  display: flex;
+  flex-direction: row;
+  color: rgb(58, 58, 58);
+  width: 300px;
+  margin-bottom: 10px;
+}
+.border:before, 
+.border:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+
+.border:before {
+  margin-right: 10px
+}
+
+.or {
+  color: white;
+  font-size: 14px;
+}
+
+.border:after {
+  margin-left: 11px
+}
+
+.create {
+  font-weight: bold;
+  background-color: rgb(43, 154, 245);
+  color: white;
+}
+
+.aggreement {
+  color: grey;
+  font-size: 10px;
+  width: 330px;
+  margin-bottom: 50px;
+}
+
+.blue {
+  color: rgb(43, 154, 245);
+  cursor: pointer;
+}
+
+.already {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.sign {
+  background-color: black;
+  border: 1px solid rgb(68, 68, 68);
+  border-radius: 55px;
+  color: rgb(43, 154, 245);
+  font-weight: bold;
+}
