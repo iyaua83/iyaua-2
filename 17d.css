@@ -9,7 +9,8 @@ body, html  {
   display: grid;
   grid-template-columns: 1fr 280px 1fr 500px 1fr;
   align-items: center;
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 
 }
 .image {
